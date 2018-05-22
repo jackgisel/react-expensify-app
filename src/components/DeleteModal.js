@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 const DeleteModal = (props) => (
     <Modal
         isOpen={props.showModal}
-        onRequestClose={props.handleClearSelected}
+        onRequestClose={props.handleCancel}
         contentLabel="Confirm Deletion"
         closeTimeoutMS={200}
         className="modal"
