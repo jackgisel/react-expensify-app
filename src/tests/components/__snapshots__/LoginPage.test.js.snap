@@ -15,11 +15,24 @@ exports[`should render LoginPage component 1`] = `
     <p>
       It's time to get your expenses under control
     </p>
-    <button
-      className="button"
+    <div
+      className="box-layout__action"
     >
-      Login with Google
-    </button>
+      <button
+        className="button"
+      >
+        Login with Google
+      </button>
+    </div>
+    <div
+      className="box-layout__action"
+    >
+      <button
+        className="button--secondary"
+      >
+        Login with Github
+      </button>
+    </div>
   </div>
 </div>
 `;

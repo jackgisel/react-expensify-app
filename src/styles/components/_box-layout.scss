@@ -11,7 +11,7 @@
 .box-layout__box {
     background: fade-out($color: white, $amount: .15);
     border-radius: 3px;
-    padding: $l_size $m-size;
+    padding: $l_size $m_size;
     text-align: center;
     width: 25rem;
 }
@@ -19,4 +19,8 @@
 .box-layout__title {
     margin: 0 0 $m_size 0;
     line-height: 1;
+}
+
+.box-layout__action {
+    padding: $s_size;
 }
