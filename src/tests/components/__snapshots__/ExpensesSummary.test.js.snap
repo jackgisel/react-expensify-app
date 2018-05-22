@@ -21,6 +21,11 @@ exports[`should correctly render ExpensesSummary with 1 1`] = `
         $2.35
       </span>
     </h1>
+    <p>
+      There are 
+      NaN
+       expenses not showing due to the filters
+    </p>
     <div
       className="page-header__actions"
     >
@@ -57,6 +62,11 @@ exports[`should correctly render ExpensesSummary with multiple 1`] = `
         $232.35
       </span>
     </h1>
+    <p>
+      There are 
+      NaN
+       expenses not showing due to the filters
+    </p>
     <div
       className="page-header__actions"
     >
